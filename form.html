@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="style.css"/>
+<title>form</title>
+</head>
+<div class="container">
+    <h1>    Advanced Art Work Search</h1>
+<form>
+<div class="radios">
+<input type="text"  placeholder="search titles"  /> <label>subject</label>
+<input type="radio" name="category" value="0">History
+<input type="radio" name="category" value="1">Person
+<input type="radio" name="category" value="2">Landscape
+<select >
+    <option >Select Genre</option>
+    <option >Archive</option>
+    <option>Edit</option>
+    <option>Delete</option>
+    <option>Collection</option>
+</select>
+<button>Filter</button>
+</div>
+<div  class="dd2">
+<select>
+    <option>Bulk Actions</option>
+    <option>Baroque</option>
+    <option>Renaissance</option>
+    <option>Realism</option>
+</select>
+<button>Adjust To Art</button>
+</div>
+</form>
+<div  class="dd3">
+    <table>
+        <thead>
+          <tr class="tr1">
+            <th></th>
+            <th colspan="7">Paintings</th>
+            
+          </tr>
+          <tr class="tr2">
+            <th></th>
+            <th></th>
+            <th>Title</th>
+            <th>Artist</th>
+            <th>Year</th>
+            <th>Genre</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><input type="checkbox" name="index[]" value="1"></td>
+            <td><img src="hermitage2.jpg" alt="par"  class="artimg" ></td>
+            <td>Portrait of Julia</td>
+            <td>Artist hermitage</td>
+            <td>1883</td>
+            <td>Realism</td>
+            <td>
+              <button class="edit">✏️</button>
+              <button class="delete">🗑️</button>
+              <button class="Archive"><img src="archieve.jpg"  class="archieve"></button>
+
+            </td>
+          </tr>
+    
+          <tr>
+            <td><input type="checkbox" name="index[]" value="2"></td>
+            <td><img src="nga1.jpg" alt="par"  class="artimg" ></td>
+            <td>Portrait of Julia</td>
+            <td>Kursse,jan</td>
+            <td>1839</td>
+            <td>Realism</td>
+            <td>
+              <button class="edit">✏️</button>
+              <button class="delete">🗑️</button>
+              <button class="Archive"><img src="archieve.jpg"  class="archieve"></button>
+
+            </td>
+          </tr>     
+          <tr>
+            <td><input type="checkbox"  name="index[]" value="3"></td>
+            <td><img src="rijks2.jpg" alt="par"  class="artimg" ></td>
+            <td>Portrait of Julia</td>
+            <td>Artist rijks</td>
+            <td>1885</td>
+            <td>Realism</td>
+            <td>
+              <button class="edit">✏️</button>
+              <button class="delete">🗑️</button>
+              <button class="Archive"><img src="archieve.jpg"  class="archieve"></button>
+
+            </td>
+          </tr>
+
+          <tr>
+            <td><input type="checkbox" name="index[]" value="4"></td>
+            <td><img src="louvre2.jpg" alt="par" class="artimg" ></td>
+            <td>Portrait of Julia</td>
+            <td>Artist louvre</td>
+            <td>1670</td>
+            <td>Dutch Bolaen Age</td>
+            <td>
+              <button class="edit">✏️</button>
+              <button class="delete">🗑️</button>
+              <button class="Archive"><img src="archieve.jpg"  class="archieve"></button>
+
+            </td>
+          </tr>
+
+          <tr>
+            <td><input type="checkbox" name="index[]" value="5"></td>
+            <td><img src="getty2.jpg" alt="Art" class="artimg"></td>
+            <td>Portrait of Julia</td>
+            <td>Artist getty</td>
+            <td>1871</td>
+            <td>Realism</td>
+            <td>
+              <button class="edit">✏️</button>
+              <button class="delete">🗑️</button>
+              <button class="Archive"><img src="archieve.jpg"  class="archieve"></button>
+
+            </td>
+          </tr>
+
+        </tbody>
+      </table>
+    
+</div>
+
+</div>
+
+<body>
+
+
+
+
+
+</body>
+
+
+</html>
